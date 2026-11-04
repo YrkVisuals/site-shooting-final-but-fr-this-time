@@ -59,8 +59,42 @@
 
 <!--deuxieme bloc   (carousel)-->
 
-<div id="deuxiemebloc">
-    <!--<img src="svj_divonne.jpeg">-->
+<div id="deuxiemebloc" class="gallery-carousel" aria-label="Carousel galerie">
+    <button class="carousel-btn prev" type="button" aria-label="Image précédente">&#8249;</button>
+
+    <div class="carousel-viewport">
+        <div class="carousel-track">
+            <div class="carousel-slide is-active">
+                <img src="images/svj_divonne.jpeg" alt="Voiture de luxe sur route">
+                <div class="carousel-caption">
+                    <span>01</span>
+                    <p>svj divonne</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/svj_divonne.jpeg" alt="Voiture de luxe sur route">
+                <div class="carousel-caption">
+                    <span>02</span>
+                    <p>cinematic look</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/svj_divonne.jpeg" alt="Voiture de luxe sur route">
+                <div class="carousel-caption">
+                    <span>03</span>
+                    <p>night drive</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-btn next" type="button" aria-label="Image suivante">&#8250;</button>
+
+    <div class="carousel-dots" aria-label="Choix de la slide">
+        <button class="dot is-active" type="button" aria-label="Afficher la slide 1"></button>
+        <button class="dot" type="button" aria-label="Afficher la slide 2"></button>
+        <button class="dot" type="button" aria-label="Afficher la slide 3"></button>
+    </div>
 </div>
 
 <!--troisieme bloc (categories)-->
@@ -111,5 +145,8 @@
     <h3 id="text_footer_droite">PHOTO • VIDEO • AUTOMOBILE</h3>
 </div>
 </footer>
+
+<!-- Script principal -->
+<script src="script.js"></script>
 </body>
 </html>
