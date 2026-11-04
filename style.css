@@ -223,7 +223,7 @@ body:has(#hero) #troisiemebloc {
 }
 #troisiemebloc_bouton:hover {
     color: #fff;
-    background: red;
+    background: black;
     letter-spacing: 6px;
     transform: scale(1.1);
 }
